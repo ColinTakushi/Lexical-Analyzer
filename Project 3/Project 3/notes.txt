@@ -1,0 +1,14 @@
+Arithmetic Expressions First: 
+1 <Expression> -> <Expression> + <Term> | <Expression> - <Term> | <Term>
+2 <Term> -> <Term> * <Factor> | <Term> / <Factor> | <Factor>
+3 <Factor> -> (<Expression>) | <identifier> | <Num>
+4 <Identifier> -> Identifier
+
+5 Assignemnt Statements
+6 <Statement> -> <Assign>
+7 <Assign> -> <Identifier> = <Expression>;
+
+8 Declarative Statements: 
+9 <Statement> -> <Declarative>
+10 <Declarative> -> <Type> <Identifier>
+11 <Type> -> bool | float | int

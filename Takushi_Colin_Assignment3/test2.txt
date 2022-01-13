@@ -1,0 +1,16 @@
+!This is a test for the functions if and while!
+
+int num, nu2m, large$;
+num = 0;
+nu2m = 15;
+bool hey;
+hey = true;
+hey = false;
+if(num > nu2m)
+{
+large$ = num;
+}
+else
+{
+large$ = nu2m;
+}
